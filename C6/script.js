@@ -75,5 +75,11 @@ const allStudents = [];
 
 for (let i = 0; i < students.length; i++) {
   allStudents.push(new Student(students[i], phone_number[i], age[i], hobbies[i]));
-  allStudents[i].greetings();
+  
+}
+
+for (let i = 0; i < allStudents.length; i++){
+  if (allStudents[i].hobbies === 'Books' || allStudents[i].hobbies === "Music") {
+    allStudents[i].greetings();
+  }
 }
