@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(45deg, yellow, green);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
