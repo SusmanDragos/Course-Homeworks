@@ -1,0 +1,46 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+   background: linear-gradient(to bottom right, #f5f7fa, hsla(217, 50%, 51%, 0.608)); 
+}
+
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: bolder;
+}
+
+button{
+    padding: 8px 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: hsla(217, 50%, 51%, 0.608);
+    color: #f5f7fa;
+    transition: .5s;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+button:hover{
+    background-color:#f5f7fa ;
+    color: hsla(217, 50%, 51%, 0.608);
+}
+
+#counter{
+    margin-top: 15px;
+}
+
+#picture{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    margin-bottom: 25px;
+}
+
